@@ -7,7 +7,6 @@ This script is meant to be run directly.
 import os
 import sys
 import time
-import sys
 from queue import Queue
 
 import keyboard
@@ -34,7 +33,7 @@ print(r"""               _           _                __      __
                                        /_/       by Novecento                                                                                                                           
 """)
 
-if len(sys.argv)>1:
+if len(sys.argv) > 1:
     print('Volume threshold set to ' + sys.argv[1])
     val = sys.argv[1]
 else:
